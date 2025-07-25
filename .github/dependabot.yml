@@ -1,0 +1,7 @@
+# TODO: Update the comments below and dependabot.yml configuration as appropriate. If the language/ecosystem is not supported for your project, please remove this file.
+# This is the dependabot configuration file that automates dependency updates
+# Updates section configures how dependabot should handle dependency updates:
+# - Monitors [Ecosystem] dependencies in the [As configured below] directory
+# - Checks for updates [based on configured frequency]
+#
+# Learn more at https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#configuration-options-for-the-dependabotyml-file
