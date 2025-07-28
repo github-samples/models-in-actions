@@ -8,6 +8,10 @@ This repository contains a collection of [GitHub Actions](https://github.com/fea
 | [Bug Reproduction Check](/workflows/bug-reproduction-check/bug-reproduction-check.yml) | Comments with request for better reproduction details, if needed. | @phazonoverload |
 | [Add Merged PR to Changelog](/workflows/add-merged-pr-to-changelog/add-merged-pr-to-changelog.yml) | Appends a summary of a merged pull request to an issue. | @phazonoverload |
 
+> [!IMPORTANT]  
+> Whenever workflows explicitly accept user input, a malicious actor could open an issue, pull request, or discussion instructing a model to do something you don't want. By carefully writing prompts and providing minimum permissions, you can help mitigate these risks.
+
+
 ## License 
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
