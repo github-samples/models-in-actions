@@ -1,14 +1,21 @@
-# Walkthrough Template
+# GitHub Models in GitHub Actions
 
-This repository serves as a template for creating a walkthrough. Follow the steps below to get started.
+This repository contains a collection of [GitHub Actions](https://github.com/features/actions) workflows that utilize [GitHub Models](https://docs.github.com/en/github-models) to automate various tasks with AI.
 
-## Getting Started
+| Title | Description | Author |
+| -- | -- | -- |
+| [Weekly Issue Summary](/workflows/weekly-issue-summary/weekly-issue-summary.yml) | Opens a new issue weekly summarizing the issues created in the last week. | @phazonoverload |
+| [Bug Reproduction Check](/workflows/bug-reproduction-check/bug-reproduction-check.yml) | Comments with request for better reproduction details, if needed. | @phazonoverload |
+| [Add Merged PR to Changelog](/workflows/add-merged-pr-to-changelog/add-merged-pr-to-changelog.yml) | Appends a summary of a merged pull request to an issue. | @phazonoverload |
 
-1. Clone this repository.
-2. Update the documentation in the `docs` folder (including the `README.md` folder).
-3. Customize the code and other content as needed.
-4. Update the `SUPPORT.md` file with the appropriate information.
-5. Review the default LICENSE (MIT), CODE_OF_CONDUCT, and CONTRIBUTING files to ensure they meet your needs. These use the samples provided as part of the OSPO release process.
-6. Update the `README.md` file in the repository root with the appropriate information. You can find an example at [github-samples/game-of-life-walkthrough](https://github.com/github-samples/game-of-life-walkthrough).
-7. Update the [devcontainer template](.devcontainer/devcontainer.json) so that it has all the needed tools, frameworks and extensions installed so those using your sample can get going quickly.
-8. When you are ready to publish the repository, please make sure that the Git history is clean. Then, raise an issue for a 'sample release' at [https://github.com/github/open-source-releases](https://github.com/github/open-source-releases).
+## License 
+
+This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
+
+## Maintainers 
+
+See maintainers in the [CODEOWNERS](https://github.com/github-samples/models-in-actions/blob/main/.github/CODEOWNERS) file.
+
+## Support
+
+Our team will try their best to respond to issues and pull requests in a timely manner. However, please note that this is an open source project and support may be limited.
