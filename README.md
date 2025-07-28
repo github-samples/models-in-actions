@@ -9,7 +9,7 @@ This repository contains a collection of [GitHub Actions](https://github.com/fea
 | [Add Merged PR to Changelog](/workflows/add-merged-pr-to-changelog/add-merged-pr-to-changelog.yml) | Appends a summary of a merged pull request to an issue. | @phazonoverload |
 
 > [!IMPORTANT]  
-> Whenever workflows explicitly accept user input, a malicious actor could open an issue instructing a model to do something you don't want. By carefully writing prompts and providing minimum permissions, you can help mitigate these risks.
+> Whenever workflows explicitly accept user input, a malicious actor could open an issue, pull request, or discussion instructing a model to do something you don't want. By carefully writing prompts and providing minimum permissions, you can help mitigate these risks.
 
 
 ## License 
