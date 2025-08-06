@@ -58,4 +58,3 @@ jobs:
               body: process.env.AI_RESPONSE
             })
         env:
-          AI_RESPONSE: ${{ steps.analyze-issue.outputs.response }}
