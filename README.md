@@ -7,6 +7,7 @@ This repository contains a collection of [GitHub Actions](https://github.com/fea
 | [Weekly Issue Summary](/workflows/weekly-issue-summary/weekly-issue-summary.yml) | Opens a new issue weekly summarizing the issues created in the last week. | @phazonoverload |
 | [Bug Reproduction Check](/workflows/bug-reproduction-check/bug-reproduction-check.yml) | Comments with request for better reproduction details, if needed. | @phazonoverload |
 | [Add Merged PR to Changelog](/workflows/add-merged-pr-to-changelog/add-merged-pr-to-changelog.yml) | Appends a summary of a merged pull request to an issue. | @phazonoverload |
+| [Multilang README Translator](/workflows/multilang-readme-translator/translate-readme.yml) | Automatically translates README.md to multiple languages when changes are made. | @FidelusAleksander |
 
 > [!IMPORTANT]  
 > Whenever workflows explicitly accept user input, a malicious actor could open an issue, pull request, or discussion instructing a model to do something you don't want. By carefully writing prompts and providing minimum permissions, you can help mitigate these risks.
